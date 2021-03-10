@@ -1,0 +1,324 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.header-up{
+    background-color:#a43134;
+    padding:10px 50px 0px 50px;
+}
+.head-icon{
+    border:1px solid white;
+    height:30px;
+    width:30px;
+    margin:0 auto;
+    border-radius:50%;
+    padding-top:5px;
+}
+.nav-link{
+    color:#a43134;
+    font-size:20px;
+}
+.nav-link:hover{
+    color:#a43134;
+    font-size:20px;
+}
+.header{
+    color:white;
+}
+/* .navbar-collapse{
+    padding-left:200px;
+} */
+.main-slider-container{
+    padding:0px;
+}
+.main-slider{
+    width:100%;
+    height:500px;
+}
+.about-us-img{
+    width:100px;
+    height:100px;
+}
+.news-img{
+    width:100%;
+    height:250px; 
+}
+.news-date-icon{
+    font-size:18px;
+}
+.gallery-col{
+    padding:10px;
+}
+.gallery-img{
+    height:150px;
+    width:100%;
+}
+.registration-container{
+    /* background-image:url('../images/reg-back.jpeg');
+    background-size:cover; */
+    padding:50px;
+    background-color: #de4448;
+}
+.registration-form{
+    background:transparent;
+}
+.register-form-button{
+    background:transparent;
+    border:1px solid white;
+    color:white;
+}
+.form-div{
+    border:2px solid white;
+    background-color:white;
+    opacity:0.9;
+}
+
+.registration-up-div{
+    background-color:#a43134;
+    color:white;
+    padding:50px 30px;
+}
+.register-now{
+    padding-top:150px;
+    color:white;
+}
+.form-class{
+padding:30px;
+}
+.btn{
+    background-color:#a43134;
+    color:white;
+}
+.heading{
+    color:#a43134;
+    font-size:40px;
+}
+.about-container{
+    padding:50px 20px;
+}
+.event-container{
+    /* background:linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.541)),url(images/RMS/slide15.png); */
+    background-color:#a43134;
+    padding:50px 20px;
+    background-size:cover;
+}
+.gallery-container{
+    padding:50px 20px;
+    background-color:#f8f8f8;
+}
+.latestnews-container{
+    padding:50px 20px;
+}
+.btn-white{
+    background-color: white;
+    color:#a43134;
+    font-weight: bold;
+}
+.footer-icons{
+    margin:10px;
+    color:white;
+}
+.footer-container{
+    background-color:#a43134;
+    padding:10px 0px;
+    color:white;
+    border-top:1px solid white;
+    margin:0px;
+}
+.advertisement-container{
+    padding:50px  0px 0px 0px;
+}
+.advertisement-img{
+    width:100%;
+    height:300px;
+}
+.login-main-container{
+    padding-top:130px;
+}
+.login-div{
+    background-color:white;
+    padding:50px 50px 100px 50px;
+} 
+.login-form{
+    padding:10px 50px;
+}
+.login-btn{
+    background-color: #a43134;
+    color:white;
+    font-weight: bold;
+}
+.donation-container{
+    padding:30px 50px;
+}
+.donation-div{
+    background-color:#a43134;
+    margin:10px;
+    padding:10px;
+}
+.donation-div-color{
+    border:2px solid white;
+    padding:50px;
+}
+.donation-img{
+    height:290px;
+}
+.objective-container{
+    padding:50px;
+    /* background-color:#111d5e; */
+    background-color: #a43134;
+}
+
+.obj-img-up-div{
+    border:3px dashed white;
+    border-radius:50%;
+    width:200px;
+    height:200px;
+   margin:0 auto;
+   padding-top:10px;
+  
+}
+
+
+.obj-img{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+}
+.obj-img-div{
+    background-color:white;
+    border-radius:50%;
+    width:180px;
+    height:180px;
+    margin:0 auto;
+    padding-top:10px
+}
+.object-text-div{
+    /* background-color:#111d5e; */
+    background-color: #a43134;
+    padding:5px;
+    margin-top:-30px;
+    color:white;
+    border:1px solid white;
+    box-shadow:inset 0px 0px 85px rgba(0,0,0,.5);
+}
+.obj-col-div:hover .obj-img-up-div{
+    border:3px dashed white;
+}
+.obj-col-div:hover .object-text-div{
+    background-color:white;
+    color:#a43134;
+    border:1px solid #a43134;
+    box-shadow:none;
+}
+.link-container{
+    padding:50px 200px;
+}
+.link-div{
+    background-color:#a43134;
+    padding:20px;
+    color:white;
+    border-radius:20px;
+}
+
+.link-div button{
+    border: 1px solid white;
+}
+.link-div:hover .link-div button{
+    border: 1px solid white;
+    background-color:white;
+}
+.member-div{
+   
+    box-shadow:inset 0px 0px 85px rgba(0,0,0,.5);
+    padding:30px;
+}
+.member-div1-row{
+    margin-top:70px;
+    color:white;
+}
+.member-form{
+    margin:10px 160px;
+    padding:20px;
+}
+.foot-con{
+    background-color:#a43134;
+    padding:30px 80px;
+    color:white;
+}
+@media screen and (max-width:760px){
+    .laptop{
+        display:none;
+    }
+    .navbar-collapse{
+        padding-left:0px;
+    }
+    .main-slider{
+        height:300px;
+    }
+    .heading{
+        font-size:30px;
+    }
+    .register-now{
+        padding:10px 10px 30px 10px;
+    }
+    .registration-container{
+        padding:20px 10px 30px 10px;
+    }
+    .news-div{
+        border-bottom:2px solid #a43134;
+        margin:10px;
+       
+    }
+    .login-main-container{
+        padding:50px;
+    }
+    .login-div{
+        padding:10px;
+    }
+    .donation-container{
+        padding:10px;
+    }
+    .donation-div-color{
+        
+        padding:20px;
+    }
+    .objective-container{
+        padding:20px;
+    }
+    .obj-col-div{
+        margin:10px;
+    }
+    .link-container{
+        padding:50px;
+    }
+    .link-div{
+        background-color:#a43134;
+        padding:10px;
+    }
+    .link-div{
+      margin:10px;
+    }
+    .form-div{
+      margin:10px;
+    }
+    .member-form{
+        margin:10px;
+        padding:20px;
+    }
+    .member-div1-row{
+        margin-top:0px;
+        color:white;
+    }
+    .foot-con{
+        background-color:#a43134;
+        padding:20px;
+        color:white;
+    }
+}
+@media screen and (min-width:765px){
+    .mobile{
+        display:none;
+    }  
+}
+
